@@ -13,7 +13,8 @@
   
 ## Data
 Download the h5py file of ModelNet40 dataset and preprocessed data (biharminic coordinates, sampled control points, meta-handles, etc.) from [here](https://drive.google.com/file/d/1q_7vTKJJUJQ5jeBE-k0_L28tEdlkA4Ku/view?usp=sharing).
-Unpack the zip file and put them in `/data`.
+Unpack the zip file and put the subfolders in `/data`.
+
 
 Alternatively, you can also download the h5py ModelNet40 dataset from [here](https://shapenet.cs.stanford.edu/media/modelnet40_ply_hdf5_2048.zip).
 
