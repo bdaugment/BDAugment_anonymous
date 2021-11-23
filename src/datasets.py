@@ -7,8 +7,7 @@ current_dir = os.getcwd()
 base_dir = os.path.abspath(os.path.join(current_dir, os.pardir))
 folder = "data/metahandels_raw"
 data_dir = os.path.join(base_dir, folder)
-folder10 = "data/modelnet10_new"
-data_dir10 = os.path.join(base_dir, folder10)
+
 
 class AugDataset(torch.utils.data.Dataset):
     def __init__(self, phase="train", data_dir=data_dir):
